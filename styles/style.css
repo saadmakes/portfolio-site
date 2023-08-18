@@ -1,50 +1,67 @@
 /* common shared styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .txt-primary {
-    color: #FD6E0A;
-    font-size: 45px;
-    font-weight: 800;
+  color: #fd6e0a;
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .btn-primary {
-    border: 0;
-    border-radius: 5px;
-    background: #FD6E0A;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
 /* nav related styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header related styles */
+
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .profile-pic {
+  width: 500px;
 }
