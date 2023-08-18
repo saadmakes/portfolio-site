@@ -1,5 +1,6 @@
 /* common shared styles */
 body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -67,9 +68,10 @@ nav a {
 
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
@@ -214,6 +216,9 @@ textarea {
   border-radius: 5px;
   background: #fff;
   width: 100%;
+}
+textarea {
+  resize: none;
 }
 /* optional styles */
 /* button:hover {
