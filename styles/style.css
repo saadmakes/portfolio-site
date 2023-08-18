@@ -187,6 +187,13 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+/* footer styles */
+footer {
+  display: flex;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
 
 /* optional styles */
 /* button:hover {
@@ -195,7 +202,6 @@ main section {
   background-color: whitesmoke;
   cursor: pointer;
 } */
-
 button:hover {
   background-color: white;
   border: 1px solid #fd6e0a;
@@ -203,7 +209,7 @@ button:hover {
 }
 
 #contact-btn {
-  background-color: white;
+  background-color: transparent;
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
 }
