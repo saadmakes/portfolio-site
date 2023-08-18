@@ -188,9 +188,26 @@ main section {
   margin-top: 50px;
 }
 
-button:hover {
+/* optional styles */
+/* button:hover {
   border: 1px solid black;
   color: black;
   background-color: whitesmoke;
   cursor: pointer;
+} */
+
+button:hover {
+  background-color: white;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
+
+#contact-btn {
+  background-color: white;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
+#contact-btn:hover {
+  background: #fd6e0a;
+  color: white;
 }
